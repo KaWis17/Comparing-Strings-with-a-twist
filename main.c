@@ -31,6 +31,6 @@ bool match(char* wzorzec, char* lancuch)
             if(match(wzorzec+1, lancuch+k)) return true;
         }
         return false;
-        }
+    }
     else return false;                                              //INCORRECT VALUES
 }
